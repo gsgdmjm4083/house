@@ -91,16 +91,15 @@ JM房屋租赁网站是一个基于 SSM 开发的标准 Java Web 项目。整体
 
 本项目使用标准 SSM 目录结构，后端使用 MVC 三层架构，具体项目结构如下：
 
-![](8.jpg)
+![](image/8.jpg)
 
 - src：源码目录
 - src/main/java：源码主体目录
-- src/main/java/xxx/component：java常用组件存放地址，比如登录拦截器【拦截器】
-- src/main/java/xxx/controller：java控制器类存放地址【控制层】
-- src/main/java/xxx/entity：java实体类存放地址【模型】
-- src/main/java/xxx/dao：MyBatis的映射接口存放地址，【数据访问层】
-- src/main/java/xxx/service：java业务层接口存放地址【业务逻辑抽象层】
-- src/main/java/xxx/utils：java工具类存放地址【工具类】
+- src/main/java/com/verio/controller：java控制器类存放地址【控制层】
+- src/main/java/com/verio/entity：java实体类存放地址【模型】
+- src/main/java/com/verio/dao：MyBatis的映射接口存放地址，【数据访问层】
+- src/main/java/com/verio/service：java业务层接口存放地址【业务逻辑抽象层】
+- src/main/java/com/verio/utils：java工具类存放地址【工具类】
 - src/resources：资源文件存放目录（Spring、SpringMVC、Mybatis、日志、数据源、数据库脚本等）
 - src/main/resources/mybatis：MyBatis配置文件位置
 - src/main/resources/mybatis/mybatis-config.xml：MyBatis全局配置文件
@@ -125,28 +124,28 @@ JM房屋租赁网站是一个基于 SSM 开发的标准 Java Web 项目。整体
 
 ### 系统主页
 
-![](s1.jpg)
+![](image/s1.jpg)
 
 ### 系统注册
 
-![](2.jpg)
+![](image/2.jpg)
 
 ### 房源搜索
 
-![](3.jpg)
+![](image/3.jpg)
 
 ### 浏览房源
 
-![](4.jpg)
+![](image/4.jpg)
 
 ### 发布房源
 
-![](5.jpg)
+![](image/5.jpg)
 
 ### 我的房屋
 
-![](6.jpg)
+![](image/6.jpg)
 
 ### 支付页面
 
-![](7.jpg)
+![](image/7.jpg)
